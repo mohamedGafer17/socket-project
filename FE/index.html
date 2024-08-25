@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socket</title>
+</head>
+<body>
+    <div id="chat-box" style="height: 200px; border: 3px solid black"></div>
+    <div>
+        <strong>From: </strong>
+        <input type="text" id="sender" placeholder="yourname">
+        <button id="namesubmit">Submit Name</button>
+    </div>
+    <input id="msg" type="text" placeholder="Type your Message"/>
+    <button id="msgBtn">Send Message</button>
+    
+    <script src="./node_modules/socket.io-client/dist/socket.io.min.js"></script>
+    <script src="./socket.js"></script>
+</body>
+</html>
